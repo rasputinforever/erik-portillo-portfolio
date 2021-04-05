@@ -1,2 +1,1 @@
-# erik-portillo-portfolio
-React-based portfolio!
+# Portfolio! React!
