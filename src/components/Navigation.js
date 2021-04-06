@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import NavTabs from "./navBar.js";
 import Introduction from './Introduction.js'
 import Project from './Project'
 import Contact from './Contact'
