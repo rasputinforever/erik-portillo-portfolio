@@ -6,7 +6,7 @@ import HeaderNav from './HeaderNav'
 import Footer from './Footer'
 import Resume from './Resume'
 
-import { Card, Header } from 'semantic-ui-react'
+import { Card, Header, Icon } from 'semantic-ui-react'
 
 import Projects from '../util/projectDB.js'
 
@@ -29,11 +29,11 @@ function Navigation() {
         <Introduction id="Home" />
 
         <section>
-          <Header id="Projects" as='h2'>
-          Projects
-          <Header.Subheader>
-          Group (red, chess) and Solo Projects (green, pawn)
-          </Header.Subheader>
+          <Header id="Projects" as='h2' textAlign='center'>
+            Projects
+            <Header.Subheader>
+              <Icon name="code" />Group (red, chess) and Solo Projects (green, pawn)
+            </Header.Subheader>
           </Header>
 
           <Card.Group itemsPerRow={3}>
