@@ -3,7 +3,11 @@ import React from 'react'
 function Contact() {
     return (
         <>
-        <p>Contact</p>
+        <ul>
+            <li>GitHub</li>
+            <li>LinkedIN</li>
+            <li>Email</li>
+        </ul>
         </>
     )
 }

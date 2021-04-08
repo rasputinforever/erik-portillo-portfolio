@@ -5,16 +5,21 @@ function Header(props) {
         <>
     <div className="nav">
         <button
-          href="#Project"
-          onClick={() => props.handlePageChange("Project")}
-          className={props.currentPage === "Project" ? "nav-link active" : "nav-link"}
+          href="#Home"
+          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
+        >
+          Home
+        </button>
+
+        <button
+          href="#Projects"
+          className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}
         >
           Project
         </button>
 
         <button
           href="#Contact"
-          onClick={() => props.handlePageChange("Contact")}
           className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
@@ -22,7 +27,6 @@ function Header(props) {
 
         <button
           href="#Resume"
-          onClick={() => props.handlePageChange("Resume")}
           className={props.currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
