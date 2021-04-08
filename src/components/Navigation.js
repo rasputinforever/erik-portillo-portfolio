@@ -24,14 +24,16 @@ function Navigation() {
       <div>
         <Header />
 
-        <Introduction />
+        <Introduction id="Home" />
 
         <h2 id="Projects">Projects</h2>
         {renderedProjects}
 
+        <h2 id="Resume">Resume</h2>
         <Resume />
 
-        <Contact />
+        <h2 id="Contact">Contact</h2>
+        <Contact id="Contact" />
 
         <Footer />
       </div>

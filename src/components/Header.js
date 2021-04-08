@@ -4,33 +4,33 @@ function Header(props) {
     return (
         <>
     <div className="nav">
-        <button
+        <a
           href="#Home"
           className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
-        </button>
+        </a>
 
-        <button
+        <a
           href="#Projects"
           className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}
         >
           Project
-        </button>
+        </a>
 
-        <button
+        <a
           href="#Contact"
           className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
-        </button>
+        </a>
 
-        <button
+        <a
           href="#Resume"
           className={props.currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume
-        </button>
+        </a>
       
     </div>
     </>
