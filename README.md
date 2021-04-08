@@ -1,1 +1,16 @@
 # Portfolio! React!
+
+## Deployed
+
+## Introduction
+This portfolio was created using a simple react-based router serving up various components onto the page. The page contains a Header, Footer, Introduction, a collection of Projects, Resume, and Contact information.
+
+## Components
+Most components are static blocks of information with text and links. Managing sections as components makes it easier to adjust and fix a specific section without affecting anything else on the page.
+
+## array.map
+The main Navigation component houses all other components and also imports the "database" information that maps out the array of project-objects. useEffect is used to set the projects hook so that the import accounts for any asynchronous importing of data.
+
+## Styling
+
+## Credits
