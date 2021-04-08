@@ -25,14 +25,14 @@ function Projects(){
 
     return (
         <section>
-          <Header id="Projects" as='h2' textAlign='center'>
+          <Header id="Projects" as='h2' textAlign='center' style={{ marginBottom: '50px'}}>
             Projects
             <Header.Subheader>
               <Icon name="code" />Group (red, chess) and Solo Projects (green, pawn)
             </Header.Subheader>
           </Header>
           <Grid stackable columns={3}>
-        {renderedProjects}
+            {renderedProjects}
 
           <Grid.Column>
       
