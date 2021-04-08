@@ -1,41 +1,52 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Menu } from 'semantic-ui-react'
 
-function HeaderNav(props) {
+export default class MenuExampleBasic extends Component {
+  state = {}
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  render() {
+    const { activeItem } = this.state
+
     return (
-        <>
-    <div className="nav">
-        <a
-          href="#Home"
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
+      <Menu>
+        <Menu.Item
+          name='Home'
+          href='#Home'
+          active={activeItem === 'Home'}
+          onClick={this.handleItemClick}
         >
           Home
-        </a>
+        </Menu.Item>
 
-        <a
-          href="#Projects"
-          className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}
+        <Menu.Item
+          name='Projects'
+          href='#Projects'
+          active={activeItem === 'Projects'}
+          onClick={this.handleItemClick}
         >
-          Project
-        </a>
+          Projects
+        </Menu.Item>
 
-        <a
-          href="#Contact"
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </a>
-
-        <a
-          href="#Resume"
-          className={props.currentPage === "Resume" ? "nav-link active" : "nav-link"}
+        <Menu.Item
+          name='Resume'
+          href='#Resume'
+          active={activeItem === 'Resume'}
+          onClick={this.handleItemClick}
         >
           Resume
-        </a>
-      
-    </div>
-    </>
+        </Menu.Item>
+        
+        <Menu.Item
+          name='Contact'
+          href='#Contact'
+          active={activeItem === 'Contact'}
+          onClick={this.handleItemClick}
+        >
+          Contact
+        </Menu.Item>
+      </Menu>
     )
+  }
 }
-
-export default HeaderNav
-

@@ -18,8 +18,7 @@ function Navigation() {
 
         <Resume />
 
-        <h2 id="Contact">Contact</h2>
-        <Contact id="Contact" />
+        <Contact />
 
         <Footer />
       </div>
