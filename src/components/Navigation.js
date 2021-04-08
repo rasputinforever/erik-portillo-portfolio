@@ -8,18 +8,14 @@ import Resume from './Resume'
 
 function Navigation() {
 
-
     return (
       <div>
         <HeaderNav />
 
-        <Introduction id="Home" />
+        <Introduction />
 
-        <Projects id="Projects" />
+        <Projects />
 
-
-
-        <h2 id="Resume">Resume</h2>
         <Resume />
 
         <h2 id="Contact">Contact</h2>

@@ -1,8 +1,20 @@
 import React from 'react'
+import { Header, Image, Icon } from 'semantic-ui-react'
 
 function Resume() {
-    return (
-        <>
+    return (    
+        
+    <section>
+        <Header id="Resume" as='h2' textAlign='center'>
+          
+        <Header.Content>Resume</Header.Content>
+            <Header.Subheader>
+              <Icon name="bullhorn" />For a more detailed PDF click here!
+            </Header.Subheader>
+          </Header>
+   
+
+
         <h3>Education</h3>
             <ul>
                 <h4>University of Oregon</h4>
@@ -38,8 +50,8 @@ function Resume() {
         </ul>
 
         <h3>Click here for a full PDF of my 2021 Resume</h3>
-            
-        </>
+        </section>
+       
     )
 }
 
