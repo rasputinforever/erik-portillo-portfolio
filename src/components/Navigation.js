@@ -18,9 +18,8 @@ function Navigation() {
 
         <Resume />
 
-        <Contact />
-
         <Footer />
+
       </div>
     )
   
