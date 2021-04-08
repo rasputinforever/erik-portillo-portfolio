@@ -41,7 +41,7 @@ const projects = [
         name: 'Quiz Game',
         deployed: 'https://rasputinforever.github.io/Quiz-Game/',
         git: 'https://github.com/rasputinforever/Quiz-Game',
-        image: '/images/quiz.JPB',
+        image: '/images/quiz.JPG',
         description: 'JavaScript based Quiz Game utlizing localStorage, setTimeout, JQuery, and DOM manipulation.',
         type: 'solo'
     }

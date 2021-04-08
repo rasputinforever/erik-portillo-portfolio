@@ -19,7 +19,7 @@ function Navigation() {
   }, [])
 
   const renderedProjects = projects.map((proj) => {
-    return <Project name={proj.name} dep={proj.deployed} git={proj.git} image={proj.image} description={proj.description}/>
+    return <Project name={proj.name} type={proj.type} dep={proj.deployed} git={proj.git} image={proj.image} description={proj.description}/>
   })
 
     return (
