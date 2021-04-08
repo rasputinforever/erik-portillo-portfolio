@@ -6,6 +6,8 @@ import Header from './Header'
 import Footer from './Footer'
 import Resume from './Resume'
 
+import { Card } from 'semantic-ui-react'
+
 import Projects from '../util/projectDB.js'
 
 function Navigation() {
@@ -27,7 +29,9 @@ function Navigation() {
         <Introduction id="Home" />
 
         <h2 id="Projects">Projects</h2>
-        {renderedProjects}
+        <Card.Group itemsPerRow={3}>
+          {renderedProjects}
+        </Card.Group>
 
         <h2 id="Resume">Resume</h2>
         <Resume />
