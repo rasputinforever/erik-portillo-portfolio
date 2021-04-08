@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navigation.js'
+import ComponentRouter from './components/ComponentRouter.js'
 
 function App() {
   return (
-    <Navigation />
+    <ComponentRouter />
   );
 }
 
