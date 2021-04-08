@@ -41,3 +41,13 @@ section {
   margin-bottom: 55px;
   padding: 5px;
 }
+
+
+.projImg {
+  width: 500px;
+}
+
+
+.ui.card.description {
+  word-wrap: break-word;
+}

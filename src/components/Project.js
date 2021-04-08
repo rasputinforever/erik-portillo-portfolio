@@ -12,12 +12,12 @@ const cardColor = props.type === 'group' ? 'red' : 'green'
     return (
         <>
         <Card color={cardColor}>
-            <Image src={props.image} wrapped ui={false} />
+            <Image className="projImg" src={props.image} wrapped ui={false} />
             <Card.Content>
                 {props.type === 'group' ? <Icon name='chess' /> : <Icon name='chess pawn' />}
                 <Card.Header>{props.name}</Card.Header>
                 <Card.Meta><a href={props.git}>GitHub</a></Card.Meta>
-                <Card.Description>
+                <Card.Description className="description">
                 {props.description}
                 </Card.Description>
                 </Card.Content>
