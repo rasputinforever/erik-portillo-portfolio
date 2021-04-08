@@ -4,6 +4,7 @@ function Footer() {
     return (
         <>
         <p>Erik Portillo, 2021</p>
+        <p>Framework: Semantic-UI</p>
         </>
     )
 }
