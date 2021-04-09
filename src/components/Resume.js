@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Icon, List } from 'semantic-ui-react'
+import { Container, Header, Icon, List } from 'semantic-ui-react'
 
 function Resume() {
     return (    
@@ -12,8 +12,7 @@ function Resume() {
               <Icon name="file alternate" /><a href="/resume.pdf">For a more detailed PDF click here!</a>
             </Header.Subheader>
           </Header>
-   
-               
+          <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>
                     <Icon name='graduation' />
@@ -33,7 +32,9 @@ function Resume() {
                     <p>Bachelor of Science in Chemistry, Minor in Human Nutrition</p>
                 </List.Item>
             </List> 
-            
+            </Container>
+            <br></br>
+            <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>
                     <Icon name='paper plane' />
@@ -64,7 +65,7 @@ function Resume() {
                 <p>Coordinated with lab technitians to meet deadlines</p>
                 <p>Performed method and system maintenance on schedule or if issues occured with either.</p>
             </List.Item>
- 
+            </Container>
         </section>
        
     )
