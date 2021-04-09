@@ -8,18 +8,18 @@ const projects = [
         type: 'group'
     },
     {
+        name: 'Employee Manager',
+        git: 'https://github.com/rasputinforever/Employee-Manager',
+        image: '/images/employee.JPG',
+        description: 'Terminal application using Node JS, Inquirer to manage a MySQL database.',
+        type: 'solo'
+    },
+    {
         name: 'Auto Compli-Mentor',
         deployed: 'https://main.d3l3xweb6e8q2c.amplifyapp.com/',
         git: 'https://github.com/rasputinforever/auto-complimentor',
         image: '/images/mentors.JPG',
         description: 'A React based application that gives the user automated mentorship.',
-        type: 'solo'
-    },
-    {
-        name: 'Employee Manager',
-        git: 'https://github.com/rasputinforever/Employee-Manager',
-        image: '/images/employee.JPG',
-        description: 'Terminal application using Node JS, Inquirer to manage a MySQL database.',
         type: 'solo'
     },
     {

@@ -4,7 +4,7 @@ import Project from './Project'
 
 import ProjectDB from '../util/projectDB.js'
 
-import { Grid, Segment, Card, Header, Icon } from 'semantic-ui-react'
+import { Grid, Card, Header, Icon } from 'semantic-ui-react'
 
 function Projects(){
     
@@ -31,7 +31,7 @@ function Projects(){
               <Icon name="code" />Group (red, chess) and Solo Projects (green, pawn)
             </Header.Subheader>
           </Header>
-          <Grid stackable columns={3}>
+          <Grid centered stackable columns={3}>
             {renderedProjects}
 
           <Grid.Column>

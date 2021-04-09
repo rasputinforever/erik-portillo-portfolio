@@ -9,7 +9,7 @@ function Resume() {
           
         <Header.Content>Resume</Header.Content>
             <Header.Subheader>
-              <Icon name="file alternate" />For a more detailed PDF click here!
+              <Icon name="file alternate" /><a href="/resume.pdf">For a more detailed PDF click here!</a>
             </Header.Subheader>
           </Header>
    

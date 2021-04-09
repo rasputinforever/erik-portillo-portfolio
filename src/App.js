@@ -3,7 +3,7 @@ import ComponentRouter from './components/ComponentRouter.js'
 
 const styleSheet = `
 html, body {
-  background-color: #EAFAF1 !important;
+  background-color: #fff2ff !important;
 },
 }
 `
