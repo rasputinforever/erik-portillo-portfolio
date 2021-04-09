@@ -15,11 +15,11 @@ function Projects(){
     setProjects(ProjectDB)
   }, [])
 
-  const renderedProjects = projects.map((proj) => {
+  const renderedProjects = projects.map((proj, i) => {
     return (
-      <Card.Group itemsPerRow={1}>
-    <Project name={proj.name} type={proj.type} dep={proj.deployed} git={proj.git} image={proj.image} description={proj.description}/>
-          </Card.Group>
+      <Card.Group  key={i} itemsPerRow={1}>
+        <Project name={proj.name} type={proj.type} dep={proj.deployed} git={proj.git} image={proj.image} description={proj.description}/>
+      </Card.Group>
     )
   })
 

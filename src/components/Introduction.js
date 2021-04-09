@@ -6,7 +6,7 @@ function Introduction() {
     <section  id="Home" >
         <Header as='h1' textAlign='center'>
           
-        <Image circular src='/images/erik.PNG' /> 
+        <Image circular src='/images/erik.png' /> 
         <Header.Content>Erik Portillo</Header.Content>
             <Header.Subheader>
               <Icon name="bullhorn" />Full-Stack Developer, Chemist, Lover of Cats
