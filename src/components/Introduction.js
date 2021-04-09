@@ -3,8 +3,8 @@ import { Header, Image, Icon } from 'semantic-ui-react'
 
 function Introduction() {
     return (  
-    <section>
-        <Header id="Home" as='h1' textAlign='center'>
+    <section  id="Home" >
+        <Header as='h1' textAlign='center'>
           
         <Image circular src='/images/erik.PNG' /> 
         <Header.Content>Erik Portillo</Header.Content>

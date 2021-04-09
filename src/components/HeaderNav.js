@@ -10,7 +10,7 @@ export default class MenuExampleBasic extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu>
+      <Menu fixed='top' style={{ backgroundColor: 'lightBlue'}}>
         <Menu.Item
           name='Home'
           href='#Home'

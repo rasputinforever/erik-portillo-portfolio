@@ -4,8 +4,8 @@ import { Container, Header, Icon, List } from 'semantic-ui-react'
 function Resume() {
     return (    
         
-    <section>
-        <Header id="Resume" as='h2' textAlign='center'>
+    <section  id="Resume">
+        <Header as='h2' textAlign='center'>
           
         <Header.Content>Resume</Header.Content>
             <Header.Subheader>

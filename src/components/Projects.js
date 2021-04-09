@@ -24,8 +24,8 @@ function Projects(){
   })
 
     return (
-        <section>
-          <Header id="Projects" as='h2' textAlign='center' style={{ marginBottom: '50px'}}>
+        <section id="Projects">
+          <Header  as='h2' textAlign='center' style={{ marginBottom: '50px'}}>
             Projects
             <Header.Subheader>
               <Icon name="code" />Group (red, chess) and Solo Projects (green, pawn)
