@@ -24,7 +24,7 @@ function Resume() {
                 <List.Item>
                     <p><b>Web Development:</b> JavaScript, CSS, HTML, AJAX, JQuery, Node, Express, Express-Handlebars, MVC, API, MySQL, MongoDB, NoSQL</p>
                     <p><b>React JS:</b> Components, MERN, Hooks, Class Constructors, Functional Constructors, States, Axios</p>
-                    <p><b>Microsoft Office:</b> Excel, Excel VBA, Power Query, Power BI, Access, Get Data</p>
+                    <p><b>Microsoft Office:</b> Excel, Excel VBA, Power Query, Power BI, Access, Get Data, Outlook, Teams</p>
                     <p><b>Analytical Skills:</b> Statistics, Model Data, Control Chart</p>
                 </List.Item>
             </List> 
