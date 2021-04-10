@@ -22,7 +22,7 @@ function Resume() {
             </Header>
             <List>
                 <List.Item>
-                    <p><b>Web Development:</b> JavaScript, CSS, HTML, AJAX, JQuery, Node, Express, Express-Handlebars, MVC, API, MySQL, MongoDB, NoSQL</p>
+                    <p><b>Web Development (full-stack):</b> JavaScript, CSS, HTML, AJAX, JQuery, Node, Express, Express-Handlebars, MVC, API, MySQL, MongoDB, NoSQL</p>
                     <p><b>React JS:</b> Components, MERN, Hooks, Class Constructors, Functional Constructors, States, Axios</p>
                     <p><b>Microsoft Office:</b> Excel, Excel VBA, Power Query, Power BI, Access, Get Data, Outlook, Teams</p>
                     <p><b>Analytical Skills:</b> Statistics, Model Data, Control Chart</p>
@@ -51,7 +51,6 @@ function Resume() {
                 </List.Item>
             </List> 
             </Container>
-            <br></br>
             <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>

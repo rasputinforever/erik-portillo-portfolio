@@ -55,6 +55,7 @@ section {
 
 .resumeSec {
   background-color:rgba(173, 216, 230, 0.733);
+  margin-bottom: 15px;
   padding: 5px;
   border-radius: 5px;
   box-shadow: 4px 3px 2px 5px rgba(0,0,0,0.35);
