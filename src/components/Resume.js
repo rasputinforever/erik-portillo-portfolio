@@ -12,6 +12,24 @@ function Resume() {
               <Icon name="file alternate" /><a href="/resume.pdf">For a more detailed PDF click here!</a>
             </Header.Subheader>
           </Header>
+
+          <Container text className="resumeSec">
+            <Header as='h3' >
+                <Header.Content>
+                    <Icon name='bullhorn' />
+                    Key Skills
+                </Header.Content>
+            </Header>
+            <List>
+                <List.Item>
+                    <p><b>Web Development:</b> JavaScript, CSS, HTML, AJAX, JQuery, Node, Express, Express-Handlebars, MVC, API, MySQL, MongoDB, NoSQL</p>
+                    <p><b>React JS:</b> Components, MERN, Hooks, Class Constructors, Functional Constructors, States, Axios</p>
+                    <p><b>Microsoft Office:</b> Excel, Excel VBA, Power Query, Power BI, Access, Get Data</p>
+                    <p><b>Analytical Skills:</b> Statistics, Model Data, Control Chart</p>
+                </List.Item>
+            </List> 
+            </Container>
+
           <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>
