@@ -8,6 +8,12 @@ const projects = [
         type: 'group'
     },
     {
+        name: 'Columbia Laboratories Workflow Management',
+        image: '/images/columbia.JPG',
+        description: 'React based, simple apps for workflow & BI concerns. In tandem with Excel VBA / Power Query applications.',
+        type: 'professional'
+    },
+    {
         name: 'Employee Manager',
         git: 'https://github.com/rasputinforever/Employee-Manager',
         image: '/images/employee.JPG',

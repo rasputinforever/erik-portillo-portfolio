@@ -5,8 +5,18 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 function Project(props) {
     
+const professionalStatement = <p>NDA Signed</p>
 const deployedLink = <a href={props.dep}><Icon name='play' />Deployed!</a>
-const githubLink = <a href={props.github}><Icon name='play' />Repository!</a>
+function checkGit() {
+    if (props.github) {
+        return <a href={props.github}><Icon name='play' />Repository!</a>
+    } else {
+        return professionalStatement
+    }
+}
+
+const githubLink = checkGit()
+
 const cardColor = props.type === 'group' ? 'red' : 'green'
 
     return (
