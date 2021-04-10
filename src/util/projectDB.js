@@ -10,7 +10,7 @@ const projects = [
     {
         name: 'Columbia Laboratories Workflow Management',
         image: '/images/columbia.JPG',
-        description: 'React based, simple apps for workflow & BI concerns. In tandem with Excel VBA / Power Query applications.',
+        description: 'Full-stack, React applications for simple BI and Workflow Management for Laboratory environment.',
         type: 'professional'
     },
     {
