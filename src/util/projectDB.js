@@ -1,13 +1,5 @@
 const projects = [
     {
-        name: 'Learnt-Up',
-        deployed: 'https://floating-oasis-75260.herokuapp.com/',
-        git: 'https://github.com/kurtp23/language-app',
-        image: '/images/learntUp.PNG',
-        description: 'A mobile friendly application for learning common words in Spanish and French utilizing MERN paradigm.',
-        type: 'group'
-    },
-    {
         name: 'Castaway: Flight of the Phoenix',
         deployed: 'https://cyoa-rpg.herokuapp.com/',
         git: 'https://github.com/Team-CYOA/CYOA',
@@ -20,6 +12,14 @@ const projects = [
         image: '/images/columbia.JPG',
         description: 'Full-stack, React applications for simple BI and Workflow Management for Laboratory environment.',
         type: 'professional'
+    },
+    {
+        name: 'Learnt-Up',
+        deployed: 'https://floating-oasis-75260.herokuapp.com/',
+        git: 'https://github.com/kurtp23/language-app',
+        image: '/images/learntUp.PNG',
+        description: 'A mobile friendly application for learning common words in Spanish and French utilizing MERN paradigm.',
+        type: 'group'
     },
     {
         name: 'Employee Manager',
