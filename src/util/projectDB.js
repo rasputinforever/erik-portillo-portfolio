@@ -24,6 +24,7 @@ const projects = [
     {
         name: 'Employee Manager',
         git: 'https://github.com/rasputinforever/Employee-Manager',
+        depoloyed: 'https://github.com/rasputinforever/Employee-Manager',
         image: '/images/employee.JPG',
         description: 'Terminal application using Node JS, Inquirer to manage a MySQL database.',
         type: 'solo'
@@ -39,6 +40,7 @@ const projects = [
     {
         name: 'Auto ReadMe',
         git: 'https://github.com/rasputinforever/Auto-ReadMe',
+        deployed: 'https://github.com/rasputinforever/Auto-ReadMe/',
         image: '/images/readme.PNG',
         description: 'Terminal application using Node JS, Inquirer to create and edit README.md files.',
         type: 'solo'
