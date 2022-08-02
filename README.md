@@ -1,7 +1,7 @@
 # Portfolio! React!
 
 ## Deployed
-[Click here to check it out!](https://react-porfolio-erik-portillo.herokuapp.com/)
+[Click here to check it out!](https://erikjustinportillo.com)
 
 ## Introduction
 This portfolio was created using a simple react-based router serving up various components onto the page. The page contains a Header, Footer, Introduction, a collection of Projects, Resume, and Contact information.
