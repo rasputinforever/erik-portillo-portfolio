@@ -122,7 +122,7 @@ function HeaderImage() {
                 
             }}
         /> 
-        {count > 3 ? <div style={{
+        {count > 3 ? <p style={{
              
                 position: 'aboslute',
                 width: proportions.width + 'px',
@@ -133,7 +133,7 @@ function HeaderImage() {
                 
             }}>
             Welcome To Erik Justin Portillo Dot Com!
-            </div> 
+            </p> 
             : null}
         </>
 
