@@ -1,12 +1,17 @@
 import React from 'react'
 import { Header, Image, Icon } from 'semantic-ui-react'
+import HeaderImage from './HeaderImage'
 
 function Introduction() {
     return (  
-    <section  id="Home" >
+    <section  id="Home" 
+      style={{position: 'relative'}}
+    
+    >
         <Header as='h1' textAlign='center'>
           
-        <Image circular src='/images/erik.png' /> 
+        <HeaderImage />
+
         <Header.Content>Erik Portillo</Header.Content>
             <Header.Subheader>
               <Icon name="bullhorn" />Full-Stack Developer, Chemist, Lover of Cats. I've been developing and programming applications professionally since 2019, starting humbly with Excel's integrated VBA, then graduating to JavaScript in 2020. My time at Univeristy of Oregon's Developer BootCamp has prepared me for modern web development. Utlizing Node, Express, and React, the lines between "website" and "application" begin to blur.

@@ -10,7 +10,15 @@ const projects = [
     {
         name: 'Columbia Laboratories Workflow Management',
         image: '/images/columbia.JPG',
+        git: 'https://github.com/rasputinforever/cl-react',
         description: 'Full-stack, React applications for simple BI and Workflow Management for Laboratory environment.',
+        type: 'professional'
+    },
+    {
+        name: 'Columbia Laboratories VBA & XML Tracker',
+        image: '/images/columbia.JPG',
+        git: 'https://github.com/rasputinforever/cl-vba-manager',
+        description: 'Scripts designed to export all VBA and XML from workbooks used for workflow processing to track detailed changes in git.',
         type: 'professional'
     },
     {
@@ -23,8 +31,8 @@ const projects = [
     },
     {
         name: 'Employee Manager',
+        deployed: 'https://github.com/rasputinforever/Employee-Manager',
         git: 'https://github.com/rasputinforever/Employee-Manager',
-        depoloyed: 'https://github.com/rasputinforever/Employee-Manager',
         image: '/images/employee.JPG',
         description: 'Terminal application using Node JS, Inquirer to manage a MySQL database.',
         type: 'solo'

@@ -15,6 +15,8 @@ function checkGit() {
     }
 }
 
+
+
 const githubLink = checkGit()
 
 const cardColor = props.type === 'group' ? 'red' : 'green'
