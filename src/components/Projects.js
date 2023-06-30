@@ -32,21 +32,28 @@ const Projects = () => {
         header={p.name}
         meta={p.employmentType}
         description={p.description}
-        extra={p.type === "private" ?
-        <><Icon name='briefcase' />Private</>
-        :
-        <>
-        <a href={p.git} target="_blank" style={{float: "left"}}>
-          <Icon name='code' />
-          Repository
-        </a>
-        {p.deployed ?
-        <a href={p.deployed} target="_blank" style={{float: "right"}}>
-          <Icon name='desktop' />
-          Deployed
-        </a>
-        : null}
-        </>
+        extra={
+          <>
+          {
+            p.type === "private" ?
+              <a disabled={true} style={{float: "left", pointerEvents: "none"}}>
+                <Icon name='briefcase' />
+                Private
+              </a>
+            :          
+            <a href={p.git} target="_blank" style={{float: "left"}}>
+              <Icon name='code' />
+              Repository
+            </a>
+          }
+          {p.deployed ?
+            <a href={p.deployed} target="_blank" style={{float: "right"}}>
+              <Icon name='desktop' />
+              Deployed
+            </a>
+          : null}
+          </>
+          
         }
     />
     )
