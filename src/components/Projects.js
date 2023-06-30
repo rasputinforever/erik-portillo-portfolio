@@ -6,7 +6,7 @@ import ProjectDB from '../util/projectDB.js'
 
 import { Grid, Card, Header, Icon } from 'semantic-ui-react'
 
-function Projects(){
+const Projects = () => {
     
     
   const [projects, setProjects] = React.useState([])
@@ -43,4 +43,4 @@ function Projects(){
     )
 }
 
-export default Projects
+export default Projects;
