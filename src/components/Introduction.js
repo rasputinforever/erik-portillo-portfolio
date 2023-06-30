@@ -14,11 +14,14 @@ function Introduction() {
 
         <Header.Content>Erik Portillo</Header.Content>
             <Header.Subheader>
-              <Icon name="bullhorn" />Full-Stack Developer, Chemist, Lover of Cats. I've been developing and programming applications professionally since 2019, starting humbly with Excel's integrated VBA, then graduating to JavaScript in 2020. My time at Univeristy of Oregon's Developer BootCamp has prepared me for modern web development. Utlizing Node, Express, and React, the lines between "website" and "application" begin to blur.
-
+              <Icon name="bullhorn" />Full Stack Developer. My work developer experience started humbly in excel vba then graduated to NodeJS & React, as well as other front-end frameworks. I have created new applications for companies requiring new software tools to meet their needs and I have worked in collaborative enviornments working up bug fixes and new utilities for existing software.
             </Header.Subheader>
-            <br></br>
-            <Header.Subheader>I hope you enjoy your time here.</Header.Subheader>
+            
+            <br />
+
+            <Header.Subheader>
+              I enjoy solving problems both in creating new tools and fixing and addressing existing tools.
+            </Header.Subheader>
           </Header>
     </section>
     )
