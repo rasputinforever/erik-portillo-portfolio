@@ -6,6 +6,14 @@ import ProjectDB from '../util/projectDB.js'
 
 import { Grid, Card, Header, Icon } from 'semantic-ui-react'
 
+const extra = (
+  <a>
+    <Icon name='user' />
+    16 Friends
+  </a>
+)
+
+
 const Projects = () => {
     
     
@@ -15,11 +23,32 @@ const Projects = () => {
     setProjects(ProjectDB)
   }, [])
 
-  const renderedProjects = projects.map((proj, i) => {
+  const renderedProjects = projects.map((p, i) => {
+    console.log(p)
     return (
-      <Card.Group  key={i} itemsPerRow={1}>
-        <Project name={proj.name} type={proj.type} dep={proj.deployed} git={proj.git} image={proj.image} description={proj.description}/>
-      </Card.Group>
+      <Card
+        key={"project"-i}
+        image={p.image}
+        header={p.name}
+        meta={p.employmentType}
+        description={p.description}
+        extra={p.type === "private" ?
+        <><Icon name='briefcase' />Private</>
+        :
+        <>
+        <a href={p.git} target="_blank" style={{float: "left"}}>
+          <Icon name='code' />
+          Repository
+        </a>
+        {p.deployed ?
+        <a href={p.deployed} target="_blank" style={{float: "right"}}>
+          <Icon name='desktop' />
+          Deployed
+        </a>
+        : null}
+        </>
+        }
+    />
     )
   })
 
@@ -27,10 +56,9 @@ const Projects = () => {
         <section id="Projects">
           <Header  as='h2' textAlign='center' style={{ marginBottom: '50px'}}>
             Projects
-            <Header.Subheader>
-              <Icon name="code" />Group (red, chess) and Solo Projects (green, pawn)
-            </Header.Subheader>
           </Header>
+
+
           <Grid centered stackable columns={3}>
             {renderedProjects}
 
