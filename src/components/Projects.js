@@ -30,8 +30,20 @@ const Projects = () => {
         key={"project"-i}
         image={p.image}
         header={p.name}
-        meta={p.employmentType}
-        description={p.description}
+        meta={
+          <div style={{color: "grey"}}>
+          {p.employmentType}
+          <br />
+          <Icon name='sitemap' />
+          {p.components.map((c, i) => {
+            return (
+              <i>{c}{i < p.components.length - 1  ? ", " : null}</i>
+            )
+          })}
+          </div>
+          
+        }
+        description={<p style={{marginTop: "15px"}}>{p.description}</p>}
         extra={
           <>
           {
