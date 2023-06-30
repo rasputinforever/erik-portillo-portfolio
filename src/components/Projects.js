@@ -66,13 +66,10 @@ const Projects = () => {
           </Header>
 
 
-          <Grid centered stackable columns={3}>
+          <Card.Group centered >
             {renderedProjects}
-
-          <Grid.Column>
+          </Card.Group>
       
-    </Grid.Column>
-  </Grid>
           
         </section>
     )

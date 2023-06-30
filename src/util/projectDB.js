@@ -14,7 +14,7 @@ const projects = [
         employmentType: 'Professional',
         deployed: 'https://https://submissions.us.tentamus.com/cannabis/',
         image: '/images/airexpert.PNG',
-        description: 'Client submission form for Columbia Laboratories for new testing requests. Includes usable chain of custody and admin tools for importing directly to LIMS.',
+        description: 'Platform for airline maintenance controllers to request and manage events with crews local to the location of the aircraft.',
         type: 'private',       
         tools: ['NodeJS', 'Vue2', 'Bootstrap', 'Jira']
     },
@@ -24,7 +24,7 @@ const projects = [
         deployed: 'https://www.airexpert.net/',
         type: 'public',
         image: '/images/castaway.JPG',
-        description: 'Aircraft Maintenance Controlle Platform.',        
+        description: 'A simple choose your own adventure game.',        
         tools: ['NodeJS', 'Vue2', 'Bootstrap', 'mysql', 'Sequelize']
     },
     {
@@ -33,7 +33,7 @@ const projects = [
         deployed: 'https://main.d3l3xweb6e8q2c.amplifyapp.com/',
         git: 'https://github.com/rasputinforever/auto-complimentor',
         image: '/images/mentors.JPG',
-        description: 'A React based application that gives the user automated mentorship.',
+        description: 'An on-demand service providing customized bits of wisdom, advice, and compliments.',
         type: 'solo',
         tools: ['React', 'NodeJS', 'Bootstrap', '3rd Party API']
     },
@@ -42,7 +42,7 @@ const projects = [
         employmentType: 'Professional',
         image: '/images/columbia.JPG',
         git: 'https://github.com/rasputinforever/cl-react',
-        description: 'Full-stack, React applications for simple BI and Workflow Management for Laboratory environment & Excel Document Management.',
+        description: 'Workflow management system tying LIMS SQL database with Excel Document workflow tool. Provides additional business information analytics and other forms for day to day lab uses.',
         type: 'private',
         tools: ['React', 'NodeJS', 'Material UI', 'mysql', 'excelJS']
     },
@@ -51,25 +51,16 @@ const projects = [
         employmentType: 'Professional',
         image: '/images/columbia.JPG',
         git: 'https://github.com/rasputinforever/cl-vba-manager',
-        description: 'Scripts designed to export all VBA and XML from workbooks used for workflow processing to track detailed changes in git.',
+        description: 'A series of scripts the extracts Excel VBA and XML source data into a repository as an alternative source control tool for controlled documents.',
         type: 'private',
         tools: ['NodeJS', 'ExcelJS', 'VBA']
-    },
-    {
-        name: 'Learnt-Up',
-        employmentType: 'Personal',
-        git: 'https://github.com/kurtp23/language-app',
-        image: '/images/learntUp.PNG',
-        description: 'A mobile friendly application for learning common words in Spanish and French utilizing MERN paradigm.',
-        type: 'public',
-        tools: ['React', 'NodeJS', 'Semantic UI']
     },
     {
         name: 'Employee Manager',
         employmentType: 'Personal',
         git: 'https://github.com/rasputinforever/Employee-Manager',
         image: '/images/employee.JPG',
-        description: 'Terminal application using Node JS, Inquirer to manage a MySQL database.',
+        description: 'Terminal application which manages database of employees allowing editing, creation, and deletion of individuals within an organization.',
         type: 'solo',
         tools: ['mysql', 'NodeJS', 'inquirer']
     },
@@ -78,7 +69,7 @@ const projects = [
         employmentType: 'Personal',
         git: 'https://github.com/rasputinforever/Auto-ReadMe',
         image: '/images/readme.PNG',
-        description: 'Terminal application using Node JS, Inquirer to create and edit README.md files.',
+        description: 'Terminal application which takes in a series of inputs and renders a usable ReadMe.MD file.',
         type: 'solo',
         tools: ['NodeJS', 'inquirer']
     },
@@ -88,9 +79,9 @@ const projects = [
         deployed: 'https://rasputinforever.github.io/My-Weather-Dashboard/',
         git: 'https://github.com/rasputinforever/My-Weather-Dashboard',
         image: '/images/weather.JPG',
-        description: 'Website utilizing 3rd party APIs to generate a weather report for your area. Local storage used to store user history..',
+        description: 'Website utilizing 3rd party APIs to generate a weather report for your area. Local storage used to store user history.',
         type: 'solo',
-        tools: ['HTML-CSS-JS', '3rd Party API', 'pure.css']
+        tools: ['HTML', 'CSS', 'JavaScript', '3rd Party API', 'pure.css']
     },
     {
         name: 'Quiz Game',
@@ -98,9 +89,9 @@ const projects = [
         deployed: 'https://rasputinforever.github.io/Quiz-Game/',
         git: 'https://github.com/rasputinforever/Quiz-Game',
         image: '/images/quiz.JPG',
-        description: 'JavaScript based Quiz Game utlizing localStorage, setTimeout, JQuery, and DOM manipulation.',
+        description: 'Simple Laboratory Quiz Game.',
         type: 'solo',
-        tools: ['HTML-CSS-JS']
+        tools: ['JavaScript', 'LocalStorage', 'HTML', 'CSS', 'Set-Timeout']
     }
     
 ]
