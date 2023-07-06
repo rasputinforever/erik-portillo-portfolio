@@ -24,10 +24,9 @@ const Projects = () => {
   }, [])
 
   const renderedProjects = projects.map((p, i) => {
-    console.log(p)
     return (
       <Card
-        key={"project"-i}
+        key={"project-"+i}
         image={p.image}
         header={p.name}
         meta={

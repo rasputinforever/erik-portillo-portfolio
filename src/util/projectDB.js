@@ -2,7 +2,7 @@ const projects = [
     {
         name: 'Columbia Laboratories Sample Submission',
         employmentType: 'Professional',
-        deployed: 'https://https://submissions.us.tentamus.com/cannabis/',
+        deployed: 'https://submissions.us.tentamus.com/cannabis/',
         git: 'https://github.com/Team-CYOA/CYOA',
         image: '/images/ecoc.PNG',
         description: 'Client submission form for Columbia Laboratories for new testing requests. Includes usable chain of custody and admin components for importing directly to LIMS.',
