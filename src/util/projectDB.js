@@ -3,7 +3,6 @@ const projects = [
         name: 'Columbia Laboratories Sample Submission',
         employmentType: 'Professional',
         deployed: 'https://submissions.us.tentamus.com/cannabis/',
-        git: 'https://github.com/Team-CYOA/CYOA',
         image: '/images/ecoc.PNG',
         description: 'Client submission form for Columbia Laboratories for new testing requests. Includes usable chain of custody and admin components for importing directly to LIMS.',
         type: 'public',
@@ -12,7 +11,7 @@ const projects = [
     {
         name: 'AirExpert',
         employmentType: 'Professional',
-        deployed: 'https://https://submissions.us.tentamus.com/cannabis/',
+        deployed: 'https://www.airexpert.net/',
         image: '/images/airexpert.PNG',
         description: 'Platform for airline maintenance controllers to request and manage events with crews local to the location of the aircraft.',
         type: 'private',       
@@ -21,7 +20,7 @@ const projects = [
     {
         name: 'Castaway: Flight of the Phoenix',
         employmentType: 'Personal',
-        deployed: 'https://www.airexpert.net/',
+        git: 'https://github.com/Team-CYOA/CYOA',
         type: 'public',
         image: '/images/castaway.JPG',
         description: 'A simple choose your own adventure game.',        
@@ -51,7 +50,7 @@ const projects = [
         employmentType: 'Professional',
         image: '/images/columbia.JPG',
         git: 'https://github.com/rasputinforever/cl-vba-manager',
-        description: 'A series of scripts the extracts Excel VBA and XML source data into a repository as an alternative source control tool for controlled documents.',
+        description: 'A series of scripts that extracts Excel VBA and XML source data into a repository as an alternative source control tool for controlled documents.',
         type: 'private',
         components: ['NodeJS', 'ExcelJS', 'VBA']
     },
