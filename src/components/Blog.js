@@ -12,6 +12,25 @@ function Resume() {
           <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>
+                    More on the Online Journey
+                </Header.Content>
+            </Header>
+            <List>
+                <List.Item>
+                    <p>When I was speaking on the perils of my social media usage I was reflecting on the "3rd digital space" I inhabit. What I mean by this is "that place" you always go to, your home page, your first stop. I'm trying to think way back, as far as I can, to the first days and I can't quite pin it but I think the first time I really had a "home page" I always looked at with Digg.</p>
+                    <p>Digg, which was basically a site not too disimilar to Reddit, was a place with links. You go there, see what's trending, read some comments, etc. It was like opening the newspaper in the morning, there was a bunch of new stuff to look at and links to new places, articles, images, and banter about those things. I don't really remember what set it apart from Reddit, and I bring up Reddit because I was brought to Reddit from Digg in a story not unlike a lot of people about 12ish years ago... but before we get into Reddit, how I got into Digg was through Revision3.</p>
+                    <p>Revision3 was an online video platform, something like a channel, or a studio, where they created programming (and licensed others) to be consumed not unlike a Nebula of today, but far fewer videos. Focus on tech, pop culture, and comedy. I am almost certain, without looking it up, it was meant to be a podcast network and they had the budget to do VIDEO podcasts... all of this predates YouTube, which is remarkable, but think back to the early days of online video. How did we even find anything? People shared links on forums I guess, but whatever the case may be, I made it to Revision3 by way of TechTV.</p>
+                    <p>TechTV was a channel I used to watch that aired The Screensavers, Call for Help, and Extended Play, among others. Unabashedly techy, nerdy content. Like, you were going to talk about RAM, about displays, about the nitty gritty, and even though the vast majority of it went over my head, I ate it up. Extended Play, in particular, being a video game review show, was amazing. I loved Adam Sessler's energy and, a story many times retold, when TechTV was merged with G4 (a video game channel) the raw tech-heavy content was dulled out and eventually phased out. The Screensavers lived on with TWiT, with a favorite, Leo Laporte, going his way, but others went on to be featured on Revision3.</p>
+                    <p>So it kind of starts with a television channel I used to watch on cable in high school. Moved to podcasts, then to Digg, then to Reddit.</p>
+                    <p>Skipping about 12 years or so, I eventually cold-turkey'd Reddit a few years ago and that's how I ended up back in Instagram in search of somewhere to scroll and consume. I don't think anywhere is as efficiently entertaining as Reddit but Reddit is a mind killer, a time killer, and stepping away really challenged me to do something. Literally, just do something, other than stare at it. I ended up staring at other things but it was a huge step toward recovering my time. I did waste about a year and a half on Instagram, but quitting that, now only having BlueSky, which is just awful in comparison when it comes to content curation, means that, yes, I'm about to say it: I actually finally read a book</p>
+                    <p>People, you've been on a wild, unedited, ride here on this one and it ended with the fact that I read a book to competion for the first time in about 14 years. I'm not a good reader, so I found out may be related to the ADHD, but more than anything, being so distractable (ADHD) and needing instant dopamine (ADHD) so cutting off the mind rot I got the time and will to read and... it was very fulfilling. I say this as though my reading days are over, I've only read about 3 books thus far, but still, that's an insane improvement.</p>
+                    <p>I'll talk about what I've read later. Thank you for reading this, this thing that is rotting YOUR mind right now... perhaps you've been tainted and there's no going back, like a blot of sap that won't wash away and you can't see.</p>
+                </List.Item>
+            </List> 
+            </Container>
+          <Container text className="resumeSec">
+            <Header as='h3' >
+                <Header.Content>
                     Stepping Away from Social Media
                 </Header.Content>
             </Header>
