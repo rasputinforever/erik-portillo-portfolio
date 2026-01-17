@@ -9,6 +9,20 @@ function Resume() {
           
         <Header.Content>Words</Header.Content>
           </Header>
+        <Container text className="resumeSec">
+            <Header as='h3' >
+                <Header.Content>
+                    Political Discourse as of 2026
+                </Header.Content>
+            </Header>
+            <List>
+                <List.Item>
+                    <p>Is online discourse, as found on the TikTok/Reels/Shorts platforms, actually a benefit to society or does it hurt us? Maybe it's take-it-or-leave it... and we have to be more dilligent to scroll past the noise. All I know right now is that it is becoming more and more clear how these social media platforms are hurting us collectively and hide the attacks on the social fabric through anonymity. Bot or human? If human, good faith or shit posting? If you can't even tell what's real, what value does anything have anymore online?</p>
+                    <p>What comes next, where do we get back to truth. Not scientific facts, not inhuman objectivity -- the truth that exists, the subjectivity that drives each of us as individuals, in our minds, from which debate is born and from which it is revealed where to go next.</p>
+                    <p>So easy to say from this side of the keyboard. I cop fully to being a hypocrite.</p>
+                </List.Item>
+            </List> 
+        </Container>
           <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>
@@ -27,7 +41,7 @@ function Resume() {
                     <p>I'll talk about what I've read later. Thank you for reading this, this thing that is rotting YOUR mind right now... perhaps you've been tainted and there's no going back, like a blot of sap that won't wash away and you can't see.</p>
                 </List.Item>
             </List> 
-            </Container>
+        </Container>
           <Container text className="resumeSec">
             <Header as='h3' >
                 <Header.Content>
